@@ -1,0 +1,114 @@
+*.Goods {
+        background-color: rgb(255, 164, 28);
+        color: black;
+        border: none;
+        height: 25px;
+        width: 80px;
+        border-radius: 12px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .Cart {
+        background-color: rgb(255, 216, 20);
+        color: black;
+        border: none;
+        height: 25px;
+        width: 80px;
+        border-radius: 12px;
+        font-size: 10px;
+        font-weight: bold;
+        margin-right: 8px;
+    }
+    .Stock {
+        color: rgb(0, 118, 0);
+        font-size: small;
+        font-weight: bold;
+    }
+    .Link {
+        color: rgb(0, 113, 113);
+        font-size: small;
+    }
+    .Nike {
+        color: black;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+    .Uber {
+        background-color: black;
+        color: white;
+        font-size: 7px;
+        border: none;
+        height: 25px;
+        width: 80px;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    .Uber:hover {
+        opacity: 0.7;
+    }
+    .Amazon {
+        background-color: rgb(255, 216, 20);
+        color: black;
+        border: none;
+        height: 25px;
+        width: 130px;
+        border-radius: 12px;
+        font-size: 9px;
+        font-weight: normal;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    .Amazon:hover {
+        background-color: orange;
+    }
+    .GitHub {
+        background-color: rgb(46, 164, 79);
+        color: white;
+        border: none;
+        height: 25px;
+        width: 80px;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: x-small;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    .GitHub:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+    .Bootstrap {
+        margin-top: 12px;
+    }
+    .Boot {
+        background-color: rgb(121, 82, 179);
+        color: white;
+        border: none;
+        height: 25px;
+        width: 80px;
+        border-radius: 2px;
+        font-weight: bold;
+        font-size: x-small;
+        margin-right: 2px;
+        cursor: pointer;
+    }
+    .Boot:hover {
+        background-color: purple;
+    }
+    .strap {
+        background-color: rgb(255, 255, 255);
+        color: rgb(108, 117, 125);
+        height: 25px;
+        width: 80px;
+        font-size: xx-small;
+        border-width: 1px;
+        border-radius: 3px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .strap:hover {
+        background-color: rgb(108, 117, 125);
+        color: rgb(255, 255, 255);
+    }
+    .Test {
+        margin-top: 12px;
+    }
