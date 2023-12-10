@@ -112,3 +112,7 @@
     .Test {
         margin-top: 12px;
     }
+
+    .mystyle{
+        display:none;
+    }
