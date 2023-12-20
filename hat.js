@@ -35,6 +35,60 @@ signup.addEventListener('click', (event) => {
     const modal = document.getElementById("modal");
     modal.classList.toggle("mystyle");
 })
+var str = "1Mango";
+var num = parseFloat(str);
+var prefix = str.replace(num, '');
+
+
+document.getElementById("plusM").addEventListener('click', () => {
+    const firstValue = document.getElementById("plusM").innerHTML
+    inputMango.value = parseInt(inputMango.value) + 1 + "M";
+})
+
+document.getElementById("minusM").addEventListener('click', () => {
+    const firstValue = document.getElementById("minusM").innerHTML
+    inputMango.value = parseInt(inputMango.value) - 1 + "M";
+})
+
+document.getElementById("plusA").addEventListener('click', () => {
+    const firstValue = document.getElementById("plusA").innerHTML;
+    inputApple.value = parseInt(inputApple.value) + 1 + "A";
+});
+
+document.getElementById("minusA").addEventListener('click', () => {
+    const firstValue = document.getElementById("minusA").innerHTML;
+    inputApple.value = parseInt(inputApple.value) - 1 + "A";
+});
+
+document.getElementById("plusP").addEventListener('click', () => {
+    const firstValue = document.getElementById("plusP").innerHTML;
+    inputPlum.value = parseInt(inputPlum.value) + 1 + "P";
+});
+
+document.getElementById("minusP").addEventListener('click', () => {
+    const firstValue = document.getElementById("minusP").innerHTML;
+    inputPlum.value = parseInt(inputPlum.value) - 1 + "P";
+});
+
+document.getElementById("plusO").addEventListener('click', () => {
+    const firstValue = document.getElementById("plusO").innerHTML;
+    inputOrange.value = parseInt(inputOrange.value) + 1 + "O";
+});
+
+document.getElementById("minusO").addEventListener('click', () => {
+    const firstValue = document.getElementById("minusO").innerHTML;
+    inputOrange.value = parseInt(inputOrange.value) - 1 + "O";
+});
+
+document.getElementById("plusG").addEventListener('click', () => {
+    const firstValue = document.getElementById("plusG").innerHTML;
+    inputGrape.value = parseInt(inputGrape.value) + 1 + "G";
+});
+
+document.getElementById("minusG").addEventListener('click', () => {
+    const firstValue = document.getElementById("minusG").innerHTML;
+    inputGrape.value = parseInt(inputGrape.value) - 1 + "G";
+});
 
 
 
