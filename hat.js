@@ -35,10 +35,6 @@ signup.addEventListener('click', (event) => {
     const modal = document.getElementById("modal");
     modal.classList.toggle("mystyle");
 })
-var str = "1Mango";
-var num = parseFloat(str);
-var prefix = str.replace(num, '');
-
 
 document.getElementById("plusM").addEventListener('click', () => {
     const firstValue = document.getElementById("plusM").innerHTML
