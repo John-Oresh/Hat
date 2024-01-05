@@ -118,60 +118,97 @@ const orangeM = document.getElementById("minusO");
 const grapeP = document.getElementById("plusG");
 const grapeM = document.getElementById("minusG");
 
-mangoP.addEventListener('click', () => {
-    list.push("Mango");
-    document.getElementById("fruit").value = list;
-    // list.map((item,index) => {
-    //     second.value = item;
-    //     });
-});
+
+console.log(window.innerWidth)
 
 
-mangoM.addEventListener('click', () => {
-    list.pop();
-    document.getElementById("fruit").value = list;
-    // list.map((item,index) => {
-    //     console.log(item)
-    //     second.value = item;
-    //     });
-});
 
-appleP.addEventListener('click', () => {
-    list.push("Apple");
-    document.getElementById("fruit").value = list;
-});
 
-appleM.addEventListener('click', () => {
-    list.pop();
-    document.getElementById("fruit").value = list;
-});
 
-plumP.addEventListener('click', () => {
-    list.push("Plum");
-    document.getElementById("fruit").value = list;
-});
 
-plumM.addEventListener('click', () => {
-    list.pop();
-    document.getElementById("fruit").value = list;
-});
 
-orangeP.addEventListener('click', () => {
-    list.push("Orange");
-    document.getElementById("fruit").value = list;
-});
 
-orangeM.addEventListener('click', () => {
-    list.pop();
-    document.getElementById("fruit").value = list;
-});
 
-grapeP.addEventListener('click', () => {
-    list.push("Grape");
-    document.getElementById("fruit").value = list;
-});
 
-grapeM.addEventListener('click', () => {
-    list.pop();
-    document.getElementById("fruit").value = list;
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// mangoP.addEventListener('click', () => {
+//     list.push("Mango");
+//     document.getElementById("fruit").value = list;
+//     // list.map((item,index) => {
+//     //     second.value = item;
+//     //     });
+// });
+
+
+// mangoM.addEventListener('click', () => {
+//     list.pop();
+//     document.getElementById("fruit").value = list;
+//     // list.map((item,index) => {
+//     //     console.log(item)
+//     //     second.value = item;
+//     //     });
+// });
+
+// appleP.addEventListener('click', () => {
+//     list.push("Apple");
+//     document.getElementById("fruit").value = list;
+// });
+
+// appleM.addEventListener('click', () => {
+//     list.pop();
+//     document.getElementById("fruit").value = list;
+// });
+
+// plumP.addEventListener('click', () => {
+//     list.push("Plum");
+//     document.getElementById("fruit").value = list;
+// });
+
+// plumM.addEventListener('click', () => {
+//     list.pop();
+//     document.getElementById("fruit").value = list;
+// });
+
+// orangeP.addEventListener('click', () => {
+//     list.push("Orange");
+//     document.getElementById("fruit").value = list;
+// });
+
+// orangeM.addEventListener('click', () => {
+//     list.pop();
+//     document.getElementById("fruit").value = list;
+// });
+
+// grapeP.addEventListener('click', () => {
+//     list.push("Grape");
+//     document.getElementById("fruit").value = list;
+// });
+
+// grapeM.addEventListener('click', () => {
+//     list.pop();
+//     document.getElementById("fruit").value = list;
+// });

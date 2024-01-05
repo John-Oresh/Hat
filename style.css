@@ -1,122 +1,4 @@
-*.Goods {
-        background-color: rgb(255, 164, 28);
-        color: black;
-        border: none;
-        height: 25px;
-        width: 80px;
-        border-radius: 12px;
-        font-size: 10px;
-        font-weight: bold;
-    }
-    .Cart {
-        background-color: rgb(255, 216, 20);
-        color: black;
-        border: none;
-        height: 25px;
-        width: 80px;
-        border-radius: 12px;
-        font-size: 10px;
-        font-weight: bold;
-        margin-right: 8px;
-    }
-    .Stock {
-        color: rgb(0, 118, 0);
-        font-size: small;
-        font-weight: bold;
-    }
-    .Link {
-        color: rgb(0, 113, 113);
-        font-size: small;
-    }
-    .Nike {
-        color: black;
-        font-size: x-large;
-        font-weight: bolder;
-    }
-    .Uber {
-        background-color: black;
-        color: white;
-        font-size: 7px;
-        border: none;
-        height: 25px;
-        width: 80px;
-        margin-right: 8px;
-        cursor: pointer;
-    }
-    .Uber:hover {
-        opacity: 0.7;
-    }
-    .Amazon {
-        background-color: rgb(255, 216, 20);
-        color: black;
-        border: none;
-        height: 25px;
-        width: 130px;
-        border-radius: 12px;
-        font-size: 9px;
-        font-weight: normal;
-        margin-right: 8px;
-        cursor: pointer;
-    }
-    .Amazon:hover {
-        background-color: orange;
-    }
-    .GitHub {
-        background-color: rgb(46, 164, 79);
-        color: white;
-        border: none;
-        height: 25px;
-        width: 80px;
-        border-radius: 4px;
-        font-weight: bold;
-        font-size: x-small;
-        margin-right: 8px;
-        cursor: pointer;
-    }
-    .GitHub:hover {
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    }
-    .Bootstrap {
-        margin-top: 12px;
-    }
-    .Boot {
-        background-color: rgb(121, 82, 179);
-        color: white;
-        border: none;
-        height: 25px;
-        width: 80px;
-        border-radius: 2px;
-        font-weight: bold;
-        font-size: x-small;
-        margin-right: 2px;
-        cursor: pointer;
-    }
-    .Boot:hover {
-        background-color: purple;
-    }
-    .strap {
-        background-color: rgb(255, 255, 255);
-        color: rgb(108, 117, 125);
-        height: 25px;
-        width: 80px;
-        font-size: xx-small;
-        border-width: 1px;
-        border-radius: 3px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    .strap:hover {
-        background-color: rgb(108, 117, 125);
-        color: rgb(255, 255, 255);
-    }
-    .Test {
-        margin-top: 12px;
-    }
-
-    .mystyle{
-        display:none;
-    }
-    .plus{
+*.plus{
         width: 30px;
         height: 20px;
         margin-right: 25px;
@@ -139,16 +21,15 @@
     .mango{
         width: 50px;
         height: 15px;
+        
+
     }
     .FruitList{
-        margin-top: 50px;
-        background-color: rgb(25, 65, 164);
-        width: 200px;
-        height: 420px;
-        margin-left: 30px;
-        padding-left: 40px;
-        padding-top: 25px;
         border-radius: 20px;
+        position: relative;
+        height: 700px;
+        width: 700px;
+        margin: auto;
     }
     .apple{
         width: 50px;
@@ -166,3 +47,90 @@
         width: 50px;
         height: 15px;
     }
+    .Mango{
+        width: 200px;
+        height: 200px;
+        padding-left: 15px;
+        border-top-left-radius: 80px;
+    }
+    .Apple{
+        width: 200px;
+        height: 200px;
+        padding-left: 15px;
+        border-top-right-radius: 80px;
+    }
+    .Plum{
+        width: 200px;
+        height: 200px;
+        padding-left: 15px;
+    }
+    .Orange{
+        width: 200px;
+        height: 200px;
+        padding-left: 15px;
+        border-bottom-left-radius: 80px;
+    }
+    .Grape{
+        width: 200px;
+        height: 200px;
+        padding-left: 15px;
+        border-bottom-right-radius: 80px;
+    }
+    .M{
+        display: flex; 
+        align-items: center;
+        width: 300px; 
+        height: 220px;
+        margin-left: 15px;
+        position: absolute;
+        top: 30px;
+        left: 0;
+    }
+    .A{
+        display: flex; 
+        align-items: center;
+        width: 300px; 
+        height: 220px;
+        margin-right: 15px;
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+    .P{
+        display: flex; 
+        align-items: center;
+        width: 300px; 
+        height: 220px;
+        margin-left: 230px;
+        position: absolute;
+        top: 50%;
+        left: 160px;
+        transform: translate(-50%, -50%);
+    }
+    .O{
+        display: flex; 
+        align-items: center; 
+        width: 300px; 
+        height: 220px;
+        margin-left: 15px;
+        position: absolute;
+        bottom: 17px;
+        left: 0;
+    }
+    .G{
+        display: flex; 
+        align-items: center;
+        width: 300px; 
+        height: 220px;
+        margin-right: 15px;
+        position: absolute;
+        bottom: 17px;
+        right: 0;
+    }
+    .Search{
+        margin-top: 4px;
+        margin-left: 220px;
+        padding-left: 100px;
+        padding-top: 6px;
+    }
+    
