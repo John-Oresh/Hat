@@ -2,6 +2,7 @@ let mangoCounter = 0;
 let appleCounter = 0;
 let plumCounter = 0;
 let orangeCounter = 0;
+let grapeCounter = 0;
 
 const fruitValue = document.getElementById("fruit")
 
@@ -9,7 +10,7 @@ let ArrayList = [];
 
 document.getElementById("plusM").addEventListener('click',() => {
 
-    ArrayList.push({name:"mango",mcounter:mangoCounter+1});
+    ArrayList.push({name:"Mango",mcounter:mangoCounter+1});
 let Ivalue = ""
 ArrayList.map((item,index)=> {
         Ivalue+=item.name;
@@ -20,7 +21,7 @@ ArrayList.map((item,index)=> {
 document.getElementById("minusM").addEventListener('click',() => {
   
     const ans = ArrayList.filter((item) => {
-        if(item.name == "mango" && item.mcounter==mangoCounter){
+        if(item.name == "Mango" && item.mcounter==mangoCounter){
             mangoCounter--
         }else{
             return item
@@ -39,7 +40,7 @@ document.getElementById("minusM").addEventListener('click',() => {
 
 
 document.getElementById("plusA").addEventListener('click',() => {
-    ArrayList.push({name:"apple",acounter:appleCounter+1});
+    ArrayList.push({name:", Apple",acounter:appleCounter+1});
 let Ivalue = ""
 ArrayList.map((item,index)=> {
         Ivalue+=item.name;
@@ -51,7 +52,7 @@ ArrayList.map((item,index)=> {
 document.getElementById("minusA").addEventListener('click',() => {
   
     const ans = ArrayList.filter((item) => {
-        if(item.name == "apple" && item.acounter==appleCounter){
+        if(item.name == ", Apple" && item.acounter==appleCounter){
             appleCounter--
         }else{
             return item
@@ -68,11 +69,8 @@ document.getElementById("minusA").addEventListener('click',() => {
 
 
 
-
-
-
 document.getElementById("plusP").addEventListener('click',() => {
-    ArrayList.push({name:"plum",pcounter:plumCounter+1});
+    ArrayList.push({name:", Plum",pcounter:plumCounter+1});
 let Ivalue = ""
 ArrayList.map((item,index)=> {
         Ivalue+=item.name;
@@ -83,7 +81,7 @@ ArrayList.map((item,index)=> {
 document.getElementById("minusP").addEventListener('click',() => {
   
     const ans = ArrayList.filter((item) => {
-        if(item.name == "plum" && item.pcounter==plumCounter){
+        if(item.name == ", Plum" && item.pcounter==plumCounter){
             plumCounter--
         }else{
             return item
@@ -100,12 +98,8 @@ document.getElementById("minusP").addEventListener('click',() => {
 
 
 
-
-
-
-
 document.getElementById("plusO").addEventListener('click',() => {
-    ArrayList.push({name:"orange",ocounter:orangeCounter+1});
+    ArrayList.push({name:", Orange",ocounter:orangeCounter+1});
 let Ivalue = ""
 ArrayList.map((item,index)=> {
         Ivalue+=item.name;
@@ -116,7 +110,7 @@ ArrayList.map((item,index)=> {
 document.getElementById("minusO").addEventListener('click',() => {
   
     const ans = ArrayList.filter((item) => {
-        if(item.name == "orange" && item.ocounter==orangeCounter){
+        if(item.name == ", Orange" && item.ocounter==orangeCounter){
             orangeCounter--
         }else{
             return item
@@ -134,9 +128,28 @@ document.getElementById("minusO").addEventListener('click',() => {
 
 
 document.getElementById("plusG").addEventListener('click',() => {
-    ArrayList.push({name:",grape",counter:mangoCounter+1});
+    ArrayList.push({name:"Grape",gcounter:grapeCounter+1});
 let Ivalue = ""
 ArrayList.map((item,index)=> {
+        Ivalue+=item.name;
+      fruitValue.value= Ivalue;
+    })
+})
+
+document.getElementById("minusG").addEventListener('click',() => {
+
+    const ans = ArrayList.filter((item) => {
+        if(item.name == "Grape" && item.gcounter==grapeCounter){
+            console.log("orange");
+            grapeCounter--
+        }else{
+            return item
+        }
+    })
+
+    let Ivalue = ""
+    ArrayList = ans;
+    ArrayList.map((item,index)=> {
         Ivalue+=item.name;
       fruitValue.value= Ivalue;
     })
